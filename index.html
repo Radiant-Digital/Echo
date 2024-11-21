@@ -38,6 +38,14 @@
 	<link type="text/css" rel="stylesheet" href="assets/apps/share/css-static/uniform.default.css">
 	<link type="text/css" rel="stylesheet" href="assets/apps/share/css-static/bootstrap.css">
 	<link type="text/css" rel="stylesheet" href="assets/apps/share/css/share-offline.css">
+<script>
+    const password = "1234567890"; // Set your password here
+    const userInput = prompt("Enter the password:");
+    if (userInput !== password) {
+        alert("Incorrect password!");
+        window.location.href = "https://www.example.com"; // Redirect if incorrect
+    }
+</script>
 </head>
 <body
 	ng-class="bodyClass"
